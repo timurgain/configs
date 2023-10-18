@@ -1,0 +1,80 @@
+{% load static %} {% load recapcha_tags %} {% include "seo/includes/seo.html" %}
+<!DOCTYPE html>
+<html lang="ru-RU" {% if seo %} prefix="og: https://ogp.me/ns#" {% endif %}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% include "seo/includes/seo.html" %}
+    <meta name="theme-color" content="#E1AA4B" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="yandex-verification" content="9a0533759e2e10e9" />
+    <meta name="robots" content="max-image-preview:large" />
+
+
+    <link
+      media="all"
+      href="{% static 'css/style.min.css' %}"
+      rel="stylesheet"
+    />
+
+    {% block page_styles %} {% endblock %}
+
+    <title>
+      АнтенМед - Оснащение операционных, реанимаций, цсо, медицинских
+      лабораторий, лучевого отделения, клиник под ключ. Комплексное оснащение
+      медицинским оборудованием под ключ
+    </title>
+    <meta
+      name="description"
+      content="Оснащение операционных, реанимаций, цсо, медицинских лабораторий, лучевого отделения, клиник под ключ. Комплексное оснащение медицинским оборудованием под ключ"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://antenmed.ru/" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="АнтенМед - Оснащение операционных, реанимаций, цсо, медицинских лабораторий, лучевого отделения, клиник под ключ. Комплексное оснащение медицинским оборудованием под ключ"
+    />
+    <meta
+      property="og:description"
+      content="Оснащение операционных, реанимаций, цсо, медицинских лабораторий, лучевого отделения, клиник под ключ. Комплексное оснащение медицинским оборудованием под ключ"
+    />
+    <meta property="og:url" content="https://antenmed.ru/" />
+    <meta property="og:site_name" content="АнтенМед" />
+    <meta
+      property="article:modified_time"
+      content="2023-06-27T18:11:25+00:00"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+
+    <link
+      rel="icon"
+      href="images/cropped-favicon-32x32-1-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="images/cropped-favicon-32x32-1-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="images/cropped-favicon-32x32-1-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://antenmed.ru/wp-content/uploads/2022/11/cropped-favicon-32x32-1-270x270.png"
+    />
+
+    {% block additional_links %}{% endblock %}
+  </head>
+
+  {% block content %}
+
+  {% endblock %}
+</html>

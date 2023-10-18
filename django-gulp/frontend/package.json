@@ -1,0 +1,32 @@
+{
+  "name": "antenmed",
+  "version": "1.0.0",
+  "description": "antenmed frontend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "del": "^7.1.0",
+    "glob": "^10.3.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.69.3",
+    "webpack": "^5.88.2",
+    "webpack-stream": "^7.0.0"
+  }
+}

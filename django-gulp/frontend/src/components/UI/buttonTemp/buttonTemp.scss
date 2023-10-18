@@ -1,0 +1,13 @@
+@import "../../../styles/constants";
+@import "../../../styles/colors";
+
+.button {
+  display: flex;
+  background-color: $blue-62;
+
+  &_disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: $blue-161;
+  }
+}
