@@ -1,2 +1,4 @@
-# configs
-Bundlers, linters
+# There are configs for bundlers, linters
+
+
+
