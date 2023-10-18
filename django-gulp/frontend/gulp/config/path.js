@@ -1,15 +1,16 @@
-import path from 'path'
+/* --- ! Set up these base paths --- */
 
-/* ===== Root paths ===== */
-// const PROJECT_ROOT = path.basename(path.resolve())
 const PROJECT_ROOT = '../'
+const DEV_SRC = 'frontend/src'
+const PROD_ROOT = 'backend'
 
-const DEV_SRC  = 'frontend/src'
-const PROD_STATIC_JS = 'web/static_dev/js'
-const PROD_STATIC_CSS = 'web/static_dev/css'
-const PROD_TEMPLATES_HTML = 'web/templates'
+const PROD_STATIC_JS = `${PROD_ROOT}/static_dev/js`
+const PROD_STATIC_CSS = `${PROD_ROOT}/static_dev/css`
+const PROD_TEMPLATES_HTML = `${PROD_ROOT}/templates`
 
-/* ===== Files' paths ===== */
+
+/* --- paths object --- */
+
 export const paths = {
   PROJECT_ROOT,
   DEV_SRC,
@@ -34,5 +35,4 @@ export const paths = {
     scss: `${PROJECT_ROOT}${DEV_SRC}/**/*.scss`,
     js:   `${PROJECT_ROOT}${DEV_SRC}/**/*.js`,
   }
-
 }
