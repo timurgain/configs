@@ -3,12 +3,12 @@
 ## Django templates
 There are options for developing frontend in external folder (same lvl with django app folder).
 
-### [option 1, Gulp and Webpack](https://github.com/timurgain/configs/django-gulp-wp):
+### [option 1, Gulp and Webpack](https://github.com/timurgain/configs/):
 - repeats django templates and static folders structure
 - ...
 
-### [option 2, Gulp](https://github.com/timurgain/configs/django-gulp):
-- atomic frontend/src structure, component's html, scss, js are keeped in on folder.
+### [option 2, Gulp](https://github.com/timurgain/configs/tree/main/django-gulp):
+- atomic frontend/src structure, where html, scss, js are keeped in one folder for each component.
 - ...
 
 
@@ -16,11 +16,11 @@ There are options for developing frontend in external folder (same lvl with djan
 Prettier mostly takes care of code formatting.  
 ESLint helps with code analyzing and pointing out potential issues and best practices.
 
-### [react-js](https://github.com/timurgain/configs/prettier-eslint/react-js):
+### [react-js](https://github.com/timurgain/configs/tree/main/prettier-eslint/react-js):
 - basic linter settings for React with JavaScript projects
 - ...
 
-### [react-ts](https://github.com/timurgain/configs/prettier-eslint/react-js):
+### [react-ts](https://github.com/timurgain/configs/tree/main/prettier-eslint/react-js):
 - basic linter settings for React with TypeScript projects
 - ...
 
@@ -28,6 +28,6 @@ ESLint helps with code analyzing and pointing out potential issues and best prac
 ## Editorconfig
 It helps with customizing editor basic settings (spaces, end of line, encoding)
 
-### [editorconfig](https://github.com/timurgain/configs/editorconfig):
+### [editorconfig](https://github.com/timurgain/configs/tree/main/editorconfig):
 - *.py files
 - *.{js,ts,jsx,tsx,css,scss,html} files 
