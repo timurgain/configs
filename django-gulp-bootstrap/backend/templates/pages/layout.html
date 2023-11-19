@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru-RU" {% if seo %} prefix="og: https://ogp.me/ns#" {% endif %}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#E1AA4B" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="yandex-verification" content="9a0533759e2e10e9" />
+    <meta name="robots" content="max-image-preview:large" />
+    <link
+      media="all"
+      href="{% static 'css/index.min.css' %}"
+      rel="stylesheet"
+    />
+    <script src="{% static 'js/index.min.js' %}"></script>
+
+    {% block page_styles %} {% endblock %}
+
+    <title>
+      Here is a page title
+    </title>
+    <meta
+      name="description"
+      content="Here is a page description"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://example.com/" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Here is an og:title"
+    />
+    <meta
+      property="og:description"
+      content="Here is an og:description"
+    />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:site_name" content="Site name" />
+    <meta
+      property="article:modified_time"
+      content="2023-06-27T18:11:25+00:00"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link
+      rel="icon"
+      href="images/cropped-favicon-32x32-1-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="images/cropped-favicon-32x32-1-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="images/cropped-favicon-32x32-1-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://example.com/wp-content/uploads/2022/11/cropped-favicon-32x32-1-270x270.png"
+    />
+
+    {% block additional_links %}{% endblock %}
+  </head>
+
+  {% block content %}
+
+  {% endblock %}
+
+  <script src="{% static 'js/app.min.js' %}"></script>
+
+</html>
